@@ -1,12 +1,12 @@
 package model;
 
-public enum View {
+public enum ScenePath {
 
     START("../view/StartScreen.fxml"), MAIN("../view/MainScreen.fxml");
 
     private String path;
 
-    View(String path) {
+    ScenePath(String path) {
         this.path = path;
     }
 
